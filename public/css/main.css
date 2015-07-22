@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-statistics {
+    background-color: #F44336;
+}
+
+ul li span {
+    float:left;
+    width:25%;
+    margin-top:25px;
+    padding-left:20px;
+}
+
+.collapsible-header {
+    width:100%;
+    height:90px;
+}
+
+select {
+    display:block;
+}
+
+input.rw-input {
+    margin-bottom: 0px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+
+.rw-datepicker {
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    height: 3rem;
+}
+
+.rw-datetimepicker:hover input {
+    background-color: #fff;
+}
+
+.rw-datetimepicker input {
+    text-indent: 10px;
+}
+
+.rw-widget > span.rw-select {
+    height: 100%;
+}
