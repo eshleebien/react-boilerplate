@@ -103,7 +103,7 @@ module.exports = React.createClass({
             }
 
             if (!data.body.results.length) {
-                that.setState({has_chart: true, loader: false, channels: []});
+                that.setState({has_chart: false, loader: false});
             }
 
             data.body.results.forEach(function (row) {
@@ -195,6 +195,18 @@ module.exports = React.createClass({
                     </div>
                 </div>
                 );
+        }
+
+        if ((!this.state.loader && !this.state.has_chart) && !this.state.error) {
+            error = (
+                <div className='row'>
+                    <div className='col s12'>
+                        <div className='section' style={{'textAlign':'center'}}>
+                        No result
+                        </div>
+                    </div>
+                </div>
+                )
         }
 
         if (this.state.loader) {
