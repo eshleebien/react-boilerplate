@@ -1,10 +1,12 @@
 /** @jsx React.DOM */
-'use strict'
+'use strict';
 
 var React = require('react'),
-    Main = require('../components/main');
+    Router = require('../config/router');
 
-React.render(
-    <Main/>, document.body
-);
+Router.mod.run(Router.config, function (Handler) {
+    React.render(
+        <Handler/>, document.body
+    );
+});
 

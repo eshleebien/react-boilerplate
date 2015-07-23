@@ -23,7 +23,7 @@ gulp.task('clean', function (next) {
 
 gulp.task('scripts', ['clean', 'browserify'], function () {
     return gulp.src(paths.scripts)
-        .pipe(uglify())
+//        .pipe(uglify())
         .pipe(concat('script.min.js'))
         .pipe(gulp.dest(paths.dest));
 });
