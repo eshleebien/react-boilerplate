@@ -1,7 +1,7 @@
 Channel growth react frontend
 =====
 
-this small application enables
+this small application enables anyone to see the growth percentage of channels growth by its actual CMS.
 
 Running the Application
 ---------------------
@@ -25,6 +25,6 @@ http-server
 Contributing
 ---
 
-*Creating components*
+**Creating components**
 ---
 
