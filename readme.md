@@ -1,7 +1,8 @@
 React Boilerplate
 =====
 
-this small application enables anyone to see the growth percentage of channels growth by its actual CMS.
+React boilerplate for small web appliations
+Still under development. Use at your own risk
 
 Running the Application
 ---------------------
